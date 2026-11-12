@@ -1,0 +1,25 @@
+PENJELASAN ALUR FLOWCHART (LOGIN & REGISTER)
+
+Flowchart ini menggambarkan alur akses pengguna pada aplikasi/website, terbagi menjadi dua jalur utama: Login (sudah punya akun) dan Register (belum punya akun).
+
+1. ALUR AWAL
+- Mulai -> Masuk ke Halaman Login.
+- Pengecekan: "SUDAH PUNYA AKUN?"
+  * Jika YA   : Lanjut ke alur Login.
+  * Jika TIDAK: Lanjut ke alur Register.
+
+2. JALUR LOGIN (Jika Sudah Punya Akun)
+- Masuk ke menu LOGIN.
+- Masukkan Username/Email.
+- Masukkan Password.
+- Pengecekan: "EMAIL/USERNAME DAN PASSWORD VALID?"
+  * Jika TIDAK (salah) : Kembali ke menu Login untuk mengulang input data.
+  * Jika YA (benar)   : Masuk ke Halaman Utama -> Selesai.
+
+3. JALUR REGISTER (Jika Belum Punya Akun)
+- Masuk ke menu REGISTER.
+- Masukkan Username.
+- Masukkan Email.
+- Masukkan Password.
+- Konfirmasi Password (isi ulang password).
+- Daftarkan Akun -> Selesai.

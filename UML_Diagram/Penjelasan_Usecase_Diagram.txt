@@ -1,0 +1,20 @@
+PENJELASAN USE CASE DIAGRAM (REGISTRASI & LOGIN)
+1. AKTOR YANG TERLIBAT
+- Pengguna Baru : Aktor yang belum memiliki akun dan melakukan proses pendaftaran.
+- Pengguna      : Aktor yang sudah memiliki akun dan melakukan proses login.
+- System        : Aktor sistem yang memproses validasi, penyimpanan data, konfirmasi, dan pemberian akses.
+
+2. USE CASE & INTERAKSI AKTOR
+
+A. PROSES REGISTRASI (Pengguna Baru)
+- Pengguna Baru mengakses fungsi REGISTER.
+- Pengguna Baru menginput data melalui MASUKAN USERNAME, EMAIL, PASSWORD.
+- System & Pengguna Baru terhubung pada fungsi VALIDASI untuk memeriksa kebenaran data registrasi.
+- System & Pengguna Baru terhubung pada SIMPAN DATA PENGGUNA untuk menyimpan akun yang baru dibuat.
+- System terhubung pada KONFIRMASI PEMBUATAN AKUN untuk mengonfirmasi bahwa pendaftaran telah berhasil.
+
+B. PROSES LOGIN (Pengguna)
+- Pengguna mengakses fungsi LOGIN.
+- Pengguna menginput credential pada MASUKAN USERNAME/EMAIL, PASSWORD.
+- System melakukan fungsi VALIDASI untuk menguji kelayakan data login (Username/Email & Password).
+- System mengeksekusi fungsi BERIKAN AKSES KE HALAMAN UTAMA setelah validasi berhasil diselesaikan.

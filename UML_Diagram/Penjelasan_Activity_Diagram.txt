@@ -1,0 +1,17 @@
+1. ACTIVITY DIAGRAM: LOGIN
+- Sistem  : Menampilkan Halaman Login.
+- Pengguna: Mengisi Form Login (Email/Username & Kata sandi).
+- Pengguna: Klik tombol login.
+- Sistem  : Melakukan verifikasi ("SUKSES?").
+  * Jika TIDAK : Sistem kembali ke "Menampilkan Halaman Login".
+  * Jika YA    : Sistem "Menampilkan halaman utama" -> Selesai.
+
+2. ACTIVITY DIAGRAM: REGISTRASI
+- Sistem  : Menampilkan Halaman Daftar Akun Baru.
+- Pengguna: Klik "Belum punya akun? Daftar".
+- Pengguna: Mengisi Form Daftar (Nama lengkap, Email, Kata sandi & Konfirmasi kata sandi).
+- Pengguna: Klik/Centang "Saya menyetujui Syarat & Ketentuan".
+- Pengguna: Klik tombol Daftar.
+- Sistem  : Melakukan validasi & pendaftaran ("SUKSES?").
+  * Jika TIDAK : Sistem kembali ke "Menampilkan Halaman Daftar Akun Baru".
+  * Jika YA    : Sistem "Menampilkan halaman utama" -> Selesai.
