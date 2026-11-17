@@ -1,4 +1,4 @@
-PENJELASAN ALUR HALAMAN LOGIN & REGISTRASI APLIKASI
+PENJELASAN ALUR HALAMAN LOGIN, REGISTRASI APLIKASI, DAN HALAMAN PROFILE
 
 1. Halaman Masuk (Login Page)
 Halaman ini adalah gerbang utama bagi pengguna yang sudah memiliki akun untuk masuk ke dalam aplikasi.
@@ -25,7 +25,7 @@ Halaman ini digunakan oleh pengguna baru yang belum memiliki akun untuk mendafta
 
 ------------------------------------------------------------
 
-2. Halaman profil (Profile Page)
+3. Halaman profil (Profile Page)
 1. Bagian Informasi Utama (Header Profil)
 Bagian atas halaman menampilkan identitas singkat pengguna yang sedang aktif masuk ke dalam aplikasi.
 - Foto Profil: Gambar atau ikon lingkaran di bagian atas yang menampilkan foto pengguna
